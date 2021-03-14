@@ -26,11 +26,11 @@ struct IntranceCardCell: View {
                 
                 
             Text(text)
-                .padding(.top, 10)
-                .padding(.bottom, 10)
+                .padding(10)
                 .multilineTextAlignment(.center)
                 .font(Font.system(size: 22))
                 .foregroundColor(Color(hex: "9771A3"))
+            
             Button(action: {
                 
             }, label: {
