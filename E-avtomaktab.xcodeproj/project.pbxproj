@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9540D58725FDD629000960CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540D58625FDD629000960CF /* AppDelegate.swift */; };
+		9540D58925FDD629000960CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540D58825FDD629000960CF /* SceneDelegate.swift */; };
+		9540D58B25FDD629000960CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540D58A25FDD629000960CF /* ContentView.swift */; };
+		9540D58E25FDD629000960CF /* E_avtomaktab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9540D58C25FDD629000960CF /* E_avtomaktab.xcdatamodeld */; };
+		9540D59025FDD62A000960CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9540D58F25FDD62A000960CF /* Assets.xcassets */; };
+		9540D59325FDD62A000960CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9540D59225FDD62A000960CF /* Preview Assets.xcassets */; };
+		9540D59625FDD62A000960CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9540D59425FDD62A000960CF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9540D58325FDD629000960CF /* E-avtomaktab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-avtomaktab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9540D58625FDD629000960CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9540D58825FDD629000960CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9540D58A25FDD629000960CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9540D58D25FDD629000960CF /* E_avtomaktab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = E_avtomaktab.xcdatamodel; sourceTree = "<group>"; };
+		9540D58F25FDD62A000960CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9540D59225FDD62A000960CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9540D59525FDD62A000960CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9540D59725FDD62A000960CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9540D58025FDD629000960CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9540D57A25FDD629000960CF = {
+			isa = PBXGroup;
+			children = (
+				9540D58525FDD629000960CF /* E-avtomaktab */,
+				9540D58425FDD629000960CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9540D58425FDD629000960CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9540D58325FDD629000960CF /* E-avtomaktab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9540D58525FDD629000960CF /* E-avtomaktab */ = {
+			isa = PBXGroup;
+			children = (
+				9540D58625FDD629000960CF /* AppDelegate.swift */,
+				9540D58825FDD629000960CF /* SceneDelegate.swift */,
+				9540D58A25FDD629000960CF /* ContentView.swift */,
+				9540D58F25FDD62A000960CF /* Assets.xcassets */,
+				9540D59425FDD62A000960CF /* LaunchScreen.storyboard */,
+				9540D59725FDD62A000960CF /* Info.plist */,
+				9540D58C25FDD629000960CF /* E_avtomaktab.xcdatamodeld */,
+				9540D59125FDD62A000960CF /* Preview Content */,
+			);
+			path = "E-avtomaktab";
+			sourceTree = "<group>";
+		};
+		9540D59125FDD62A000960CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9540D59225FDD62A000960CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9540D58225FDD629000960CF /* E-avtomaktab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9540D59A25FDD62A000960CF /* Build configuration list for PBXNativeTarget "E-avtomaktab" */;
+			buildPhases = (
+				9540D57F25FDD629000960CF /* Sources */,
+				9540D58025FDD629000960CF /* Frameworks */,
+				9540D58125FDD629000960CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-avtomaktab";
+			productName = "E-avtomaktab";
+			productReference = 9540D58325FDD629000960CF /* E-avtomaktab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9540D57B25FDD629000960CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9540D58225FDD629000960CF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9540D57E25FDD629000960CF /* Build configuration list for PBXProject "E-avtomaktab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9540D57A25FDD629000960CF;
+			productRefGroup = 9540D58425FDD629000960CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9540D58225FDD629000960CF /* E-avtomaktab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9540D58125FDD629000960CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9540D59625FDD62A000960CF /* LaunchScreen.storyboard in Resources */,
+				9540D59325FDD62A000960CF /* Preview Assets.xcassets in Resources */,
+				9540D59025FDD62A000960CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9540D57F25FDD629000960CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9540D58725FDD629000960CF /* AppDelegate.swift in Sources */,
+				9540D58925FDD629000960CF /* SceneDelegate.swift in Sources */,
+				9540D58B25FDD629000960CF /* ContentView.swift in Sources */,
+				9540D58E25FDD629000960CF /* E_avtomaktab.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9540D59425FDD62A000960CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9540D59525FDD62A000960CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9540D59825FDD62A000960CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9540D59925FDD62A000960CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9540D59B25FDD62A000960CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"E-avtomaktab/Preview Content\"";
+				DEVELOPMENT_TEAM = V5733424RR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "E-avtomaktab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.negmatov.E-avtomaktab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9540D59C25FDD62A000960CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"E-avtomaktab/Preview Content\"";
+				DEVELOPMENT_TEAM = V5733424RR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "E-avtomaktab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.negmatov.E-avtomaktab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9540D57E25FDD629000960CF /* Build configuration list for PBXProject "E-avtomaktab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9540D59825FDD62A000960CF /* Debug */,
+				9540D59925FDD62A000960CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9540D59A25FDD62A000960CF /* Build configuration list for PBXNativeTarget "E-avtomaktab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9540D59B25FDD62A000960CF /* Debug */,
+				9540D59C25FDD62A000960CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9540D58C25FDD629000960CF /* E_avtomaktab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9540D58D25FDD629000960CF /* E_avtomaktab.xcdatamodel */,
+			);
+			currentVersion = 9540D58D25FDD629000960CF /* E_avtomaktab.xcdatamodel */;
+			path = E_avtomaktab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9540D57B25FDD629000960CF /* Project object */;
+}
