@@ -57,10 +57,10 @@ struct IntranceScreen: View {
             .padding(.leading,25)
             .frame(width: UIScreen.width, height: UIScreen.height/20)
             .background(Color(hex: "4F335A"))
-            
+            HStack{}.frame(height: 20)
         }
         .frame(maxWidth: .infinity)
-//            .edgesIgnoringSafeArea(.bottom)
+            .edgesIgnoringSafeArea(.bottom)
         
         .navigationBarItems(
             leading: Image("ic_e-logo"),
