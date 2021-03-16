@@ -14,6 +14,7 @@
 		9540D59325FDD62A000960CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9540D59225FDD62A000960CF /* Preview Assets.xcassets */; };
 		9540D59625FDD62A000960CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9540D59425FDD62A000960CF /* LaunchScreen.storyboard */; };
 		9540D5A325FDD6D5000960CF /* IntranceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9540D5A225FDD6D5000960CF /* IntranceScreen.swift */; };
+		95A4A5CD2600A5AB00A5B4F1 /* IntranceHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A4A5CC2600A5AB00A5B4F1 /* IntranceHomeScreen.swift */; };
 		95D1217425FE9647004972BD /* IntranceCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1217325FE9647004972BD /* IntranceCardCell.swift */; };
 		95D1217825FE9966004972BD /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1217725FE9966004972BD /* extentions.swift */; };
 		95D1218125FEA998004972BD /* NavigationBarButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1218025FEA998004972BD /* NavigationBarButtonCell.swift */; };
@@ -29,6 +30,7 @@
 		9540D59525FDD62A000960CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9540D59725FDD62A000960CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9540D5A225FDD6D5000960CF /* IntranceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceScreen.swift; sourceTree = "<group>"; };
+		95A4A5CC2600A5AB00A5B4F1 /* IntranceHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceHomeScreen.swift; sourceTree = "<group>"; };
 		95D1217325FE9647004972BD /* IntranceCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceCardCell.swift; sourceTree = "<group>"; };
 		95D1217725FE9966004972BD /* extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
 		95D1218025FEA998004972BD /* NavigationBarButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonCell.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				9540D5A225FDD6D5000960CF /* IntranceScreen.swift */,
+				95A4A5CC2600A5AB00A5B4F1 /* IntranceHomeScreen.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A4A5CD2600A5AB00A5B4F1 /* IntranceHomeScreen.swift in Sources */,
 				95D1217825FE9966004972BD /* extentions.swift in Sources */,
 				95D1218125FEA998004972BD /* NavigationBarButtonCell.swift in Sources */,
 				9540D58725FDD629000960CF /* AppDelegate.swift in Sources */,

@@ -49,7 +49,8 @@ struct IntranceCardCell: View {
                     )
                     .frame(height: 45)
             })
-        }.frame(height: UIScreen.height*3/5)
+        }
+//        .frame(height: UIScreen.height*3/5)
     }
 }
 
