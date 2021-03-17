@@ -11,8 +11,15 @@ struct IntranceScreen: View {
                         IntranceHomeScreen()
                     } else if btnTapped == "calendar" {
                         IntranceOportunityScreen()
+                    } else if btnTapped == "functions" {
+                        IntranceFuncScreen()
+                    } else if btnTapped == "statistics" {
+                        IntranceStaticsScreen()
+                    } else if btnTapped == "tests" {
+                        IntranceFuncScreen()
                     }
-                }.frame(width: UIScreen.width,height: UIScreen.height*2.3/3)
+                }.frame(width: UIScreen.width, height: UIScreen.height*2.3/3)
+                
                 Spacer()
                 HStack{
                     Button(action: {

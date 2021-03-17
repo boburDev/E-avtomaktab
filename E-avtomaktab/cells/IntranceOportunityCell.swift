@@ -46,7 +46,6 @@ struct IntranceOportunityCell: View {
                 }
                 .onTapGesture {
                     self.pressed.toggle()
-                    print(pressed)
                 }
             }.frame(width: UIScreen.width/3)
         }
