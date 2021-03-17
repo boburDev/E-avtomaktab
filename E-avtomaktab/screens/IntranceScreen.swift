@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct IntranceScreen: View {
-    @State var btnTapped = "calendar" //calendar
+    @State var btnTapped = "tests"
     @State var selector = 0
     var body: some View {
         NavigationView{
@@ -16,7 +16,7 @@ struct IntranceScreen: View {
                     } else if btnTapped == "statistics" {
                         IntranceStaticsScreen()
                     } else if btnTapped == "tests" {
-                        IntranceFuncScreen()
+                        IntranceTestScreen()
                     }
                 }.frame(width: UIScreen.width, height: UIScreen.height*2.3/3)
                 

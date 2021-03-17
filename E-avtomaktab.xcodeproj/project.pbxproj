@@ -23,6 +23,8 @@
 		95AB2DBE2602343300726687 /* IntranceStaticsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB2DBD2602343300726687 /* IntranceStaticsCell.swift */; };
 		95AB2DC12602377100726687 /* IntranceTestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB2DC02602377100726687 /* IntranceTestScreen.swift */; };
 		95AB2DC42602377A00726687 /* IntranceTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB2DC32602377A00726687 /* IntranceTestCell.swift */; };
+		95AB2DC726023B5000726687 /* IntranceTestQuestionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB2DC626023B5000726687 /* IntranceTestQuestionsScreen.swift */; };
+		95AB2DCE2602401D00726687 /* IntranceTestQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB2DCD2602401D00726687 /* IntranceTestQuestionCell.swift */; };
 		95D1217425FE9647004972BD /* IntranceCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1217325FE9647004972BD /* IntranceCardCell.swift */; };
 		95D1217825FE9966004972BD /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1217725FE9966004972BD /* extentions.swift */; };
 		95D1218125FEA998004972BD /* NavigationBarButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1218025FEA998004972BD /* NavigationBarButtonCell.swift */; };
@@ -47,6 +49,8 @@
 		95AB2DBD2602343300726687 /* IntranceStaticsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceStaticsCell.swift; sourceTree = "<group>"; };
 		95AB2DC02602377100726687 /* IntranceTestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceTestScreen.swift; sourceTree = "<group>"; };
 		95AB2DC32602377A00726687 /* IntranceTestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceTestCell.swift; sourceTree = "<group>"; };
+		95AB2DC626023B5000726687 /* IntranceTestQuestionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceTestQuestionsScreen.swift; sourceTree = "<group>"; };
+		95AB2DCD2602401D00726687 /* IntranceTestQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceTestQuestionCell.swift; sourceTree = "<group>"; };
 		95D1217325FE9647004972BD /* IntranceCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntranceCardCell.swift; sourceTree = "<group>"; };
 		95D1217725FE9966004972BD /* extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
 		95D1218025FEA998004972BD /* NavigationBarButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonCell.swift; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 				951B49412600DE73002FA9AF /* IntranceFuncScreen.swift */,
 				95AB2DBA2602251400726687 /* IntranceStaticsScreen.swift */,
 				95AB2DC02602377100726687 /* IntranceTestScreen.swift */,
+				95AB2DC626023B5000726687 /* IntranceTestQuestionsScreen.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 				951B49442600DF1D002FA9AF /* IntranceFuncCell.swift */,
 				95AB2DBD2602343300726687 /* IntranceStaticsCell.swift */,
 				95AB2DC32602377A00726687 /* IntranceTestCell.swift */,
+				95AB2DCD2602401D00726687 /* IntranceTestQuestionCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -223,9 +229,11 @@
 				95D1218125FEA998004972BD /* NavigationBarButtonCell.swift in Sources */,
 				95AB2DC42602377A00726687 /* IntranceTestCell.swift in Sources */,
 				9540D58725FDD629000960CF /* AppDelegate.swift in Sources */,
+				95AB2DCE2602401D00726687 /* IntranceTestQuestionCell.swift in Sources */,
 				951B49452600DF1D002FA9AF /* IntranceFuncCell.swift in Sources */,
 				9540D58925FDD629000960CF /* SceneDelegate.swift in Sources */,
 				95A4A5D02600C62200A5B4F1 /* IntranceOportunityScreen.swift in Sources */,
+				95AB2DC726023B5000726687 /* IntranceTestQuestionsScreen.swift in Sources */,
 				9540D58E25FDD629000960CF /* E_avtomaktab.xcdatamodeld in Sources */,
 				9540D5A325FDD6D5000960CF /* IntranceScreen.swift in Sources */,
 				95D1217425FE9647004972BD /* IntranceCardCell.swift in Sources */,

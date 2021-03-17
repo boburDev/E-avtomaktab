@@ -14,9 +14,7 @@ struct IntranceFuncScreen: View {
                 ForEach(0..<8) { _ in
                     HStack{
                         ForEach(0..<2) { _ in
-                            Spacer()
                             IntranceFuncCell()
-                            Spacer()
                         }
                     }
                 }
